@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Quang Trung</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/img/logo.png">
+		<meta name="description" content="Responsive Animated Border Menus with CSS Transitions" />
+		<meta name="keywords" content="navigation, menu, responsive, border, overlay, css transition" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/style5.css" />
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" href="./img/">
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" href="css/logo.css">
+        <link rel="stylesheet" href="css/thumuc.css">
+		
+	</head>
+	</head>
+	<body>
+		<div class="container demo-3">   
+			<svg id="electric-loader" viewBox="0 0 100 100">
+				<defs>
+					<filter id="goo">
+						<feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur" />
+						<feColorMatrix in="blur" mode="matrix" 
+						values="
+						1 0 0 0 0  
+						0 1 0 0 0  
+						0 0 1 0 0  
+						0 0 0 17 -2.15" result="goo" />
+						<feComposite in="SourceGraphic" in2="goo" operator="over" />
+					</filter>
+					
+					<filter id="glow">
+						<feMorphology operator="dilate" radius="1" in="SourceAlpha" result="thicken" />
+						
+						<!-- Use a gaussian blur to create the soft blurriness of the glow -->
+						<feGaussianBlur in="thicken" stdDeviation="1" result="blurred" />
+						
+						<!-- Change the color -->
+						<feFlood flood-color="rgb(255,0,0)" result="glowColor" />
+						
+						<!-- Color in the glows -->
+						<feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
+						
+						<!--	Layer the effects together -->
+						<feMerge>
+							<feMergeNode in="softGlow_colored"/>
+							<feMergeNode in="SourceGraphic"/>
+						</feMerge>
+					</filter>
+				</defs>
+				
+				<circle filter="url(#glow)" cx="51.5" cy="51.5" r="33"/>
+				<g filter="url(#goo)"></g>
+			</svg>
+			<a href="">
+				<img  id="logo" src="/img/logo.png" alt="">
+			</a>
+			<script src="js/logo.js" ></script>
+		</div>	
+		<!-- content -->	
+				
+			<ul class="grid cs-style-3">
+				<li>
+					<figure>
+						<img src="images/1.png" alt="img04">
+						<figcaption>
+							<h3 class="title">GAME</h3>
+							<span>trung</span>
+							<a class="a_demo_five" href="game.html">Mở Thư Mục</a>					
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/2.png" alt="img01">
+						<figcaption>
+							<h3 class="title">Đồ Họa</h3>
+							<span>trung</span>
+							<a class="a_demo_five" href="dohoa.html">Mở Thư Mục</a>					
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/3.png" alt="img02">
+						<figcaption>
+							<h3 class="title">Win 10</h3>
+							<span>trung</span>
+							<a class="a_demo_five" href="win.html">Mở Thư Mục</a>	
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/4.png" alt="img05">
+						<figcaption>
+							<h3 class="title">Offfice</h3>
+							<span>trung</span>
+							<a class="a_demo_five" href="office.html">Mở Thư Mục</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/5.png" alt="img03">
+						<figcaption>
+							<h3 class="title">Tool</h3>
+							<span>trung</span>
+							<a class="a_demo_five" href="tool.html">Mở Thư Mục</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/6.png" alt="img06">
+						<figcaption>
+							<h3 class="title">Tổng Hợp</h3>
+							<span>trung</span>
+							<a class="a_demo_five" href="thuthuat.html">Mở Thư Mục</a>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</div><!-- /container -->
+
+<!-- logo nổi -->
+<div class="Project">
+	<!-- https://brisseaux.tumblr.com/post/91018371936 -->
+	<img src="https://media.giphy.com/media/26FPAn6hPp6Fqx7qw/giphy.gif" alt="" class="imgMasked" />
+	<div class="Project-hail"></div>
+	<div class="Project-hail2"></div>
+	<p class="Project-name">o_O</p>
+  </div>
+	<script id="nen" src="js/nen.js"></script>
+	<script src="js/toucheffects.js"></script>
+		<div class="container">			
+      		<nav id="bt-menu" class="bt-menu">
+				<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+				<ul>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul>
+					<li><a href="" class="bt-icon icon-twitter">Twitter</a></li>
+					<li><a href="" class="bt-icon icon-gplus">Google+</a></li>
+					<li><a href="https://www.facebook.com/quang.trung.980" class="bt-icon icon-facebook">Facebook</a></li>
+					<li><a href="" class="bt-icon icon-github">icon-github</a></li>
+				</ul>
+			</nav>
+		</div><!-- /container -->
+		
+	</body>
+	<script src="js/classie.js"></script>
+	<script src="js/borderMenu.js"></script>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Quang Trung</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/img/logo.png">
+		<meta name="description" content="Responsive Animated Border Menus with CSS Transitions" />
+		<meta name="keywords" content="navigation, menu, responsive, border, overlay, css transition" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/style5.css" />
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" href="./img/">
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" href="css/logo.css">
+        <link rel="stylesheet" href="css/thumuc.css">
+		<link rel="stylesheet" href="css/chuthich.css">
+		<script src="https://kit.fontawesome.com/bf397703ef.js" crossorigin="anonymous"></script>
+
+	</head>
+	</head>
+	<body>
+
+			<svg id="electric-loader" viewBox="0 0 100 100">
+				<defs>
+					<filter id="goo">
+						<feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur" />
+						<feColorMatrix in="blur" mode="matrix" 
+						values="
+						1 0 0 0 0  
+						0 1 0 0 0  
+						0 0 1 0 0  
+						0 0 0 17 -2.15" result="goo" />
+						<feComposite in="SourceGraphic" in2="goo" operator="over" />
+					</filter>
+					
+					<filter id="glow">
+						<feMorphology operator="dilate" radius="1" in="SourceAlpha" result="thicken" />
+						
+						<!-- Use a gaussian blur to create the soft blurriness of the glow -->
+						<feGaussianBlur in="thicken" stdDeviation="1" result="blurred" />
+						
+						<!-- Change the color -->
+						<feFlood flood-color="rgb(255,0,0)" result="glowColor" />
+						
+						<!-- Color in the glows -->
+						<feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
+						
+						<!--	Layer the effects together -->
+						<feMerge>
+							<feMergeNode in="softGlow_colored"/>
+							<feMergeNode in="SourceGraphic"/>
+						</feMerge>
+					</filter>
+				</defs>
+				
+				<circle filter="url(#glow)" cx="51.5" cy="51.5" r="33"/>
+				<g filter="url(#goo)"></g>
+			</svg>
+			<a href="index.html">
+				<img  id="logo" src="/img/logo.png" alt="">
+			</a>
+			<script src="js/logo.js" ></script>
+		</div>	
+		<!-- content -->	
+			
+			<ul class="grid-iteam">
+				<p>
+					<a href="index.html" class="a_demo_two">
+						quay lại
+						<i class="fa fa-undo" aria-hidden="true"></i></a>
+				</p>
+				<li>
+					<div class="container">
+						<div class="title">Offfice 2016 & 2019</div>
+						<img class="t1" src="/images/offfice/offfice 2019.jpg" />
+						<a class="a_demo_four" href="https://drive.google.com/u/0/uc?export=download&confirm=zdrE&id=1SBvRKnvBt6naZEu_X1whuF217odnKGNO">Tải xuống</a>	
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<div class="title">Offfice 2010</div>
+						<img class="t1" src="/images/offfice/tai-bo-office-2010.jpg" />
+						<a class="a_demo_four" href="https://mega.nz/file/yawCCLib#N9ZwGzd5EmmeYir4PZPjz20xu__20mtRl4ib9ULZkts">Tải xuống</a>	
+					</div>
+				</li>
+				
+			</ul>
+		</div><!-- /container -->
+
+<!-- logo nổi -->
+<div class="Project">
+	<!-- https://brisseaux.tumblr.com/post/91018371936 -->
+	<a href="indexl.html">
+		<img src="https://media.giphy.com/media/26FPAn6hPp6Fqx7qw/giphy.gif" alt="" class="imgMasked" />
+	</a>
+	<div class="Project-hail"></div>
+	<div class="Project-hail2"></div>
+	<p  class="Project-name">o_O</p>
+  </div>
+	<script id="nen" src="js/nen.js"></script>
+	<script src="js/toucheffects.js"></script>
+		<div class="container">			
+			
+      		<nav id="bt-menu" class="bt-menu">
+				<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+				<ul>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul>
+					<li><a href="" class="bt-icon icon-twitter">Twitter</a></li>
+					<li><a href="" class="bt-icon icon-gplus">Google+</a></li>
+					<li><a href="https://www.facebook.com/quang.trung.980" class="bt-icon icon-facebook">Facebook</a></li>
+					<li><a href="" class="bt-icon icon-github">icon-github</a></li>
+				</ul>
+			</nav>
+		</div><!-- /container -->
+		
+	</body>
+	<script src="js/classie.js"></script>
+	<script src="js/borderMenu.js"></script>
+</html>
